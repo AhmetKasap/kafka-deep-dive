@@ -1,0 +1,33 @@
+{
+  "name": "kafka-deep-dive",
+  "version": "1.0.0",
+  "description": "This repository has been created to thoroughly learn all components of Apache Kafka, from its fundamentals to its advanced architecture, and to reinforce this knowledge through practical application in real-world scenarios.",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmetKasap/kafka-deep-dive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmetKasap/kafka-deep-dive/issues"
+  },
+  "homepage": "https://github.com/AhmetKasap/kafka-deep-dive#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
