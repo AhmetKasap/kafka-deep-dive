@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/AhmetKasap/kafka-deep-dive#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "inversify": "^7.10.6",
+    "kafkajs": "^2.2.4",
     "nodemon": "^3.1.11"
   },
   "devDependencies": {
